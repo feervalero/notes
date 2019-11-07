@@ -1,0 +1,52 @@
+{
+  "acros_latam": {
+    "common_name":"Acros LATAM",
+    "storage": [
+      {
+        "type": "qa_server",
+        "hostname": "",
+        "ip_internal_address": "10.4.106.139",
+        "ip_external_address": "",
+        "user": "valerf2",
+        "password": "Kronos08"
+      },
+      {
+        "type": "prod_server",
+        "hostname": "awnacroslap1",
+        "ip_internal_address": "10.5.18.176",
+        "ip_external_address": "18.232.233.231",
+        "user": "valerf2",
+        "password": "Acros@02"
+      },
+      {
+        "type": "wordpress",
+        "hostname": "",
+        "ip_internal_address": "",
+        "ip_external_address": "18.232.233.231",
+        "user": "admin",
+        "password": "AdminAcrosLat123!"
+      }
+    ]
+  },
+  "whirlpool_latam": {
+      "common_name":"Whirlpool LATAM",
+    "storage": [
+      {
+        "type": "qa_server",
+        "hostname": "awnwhrlap1",
+        "ip_internal_address":"10.4.142.196",
+        "ip_external_address":"",
+        "user":"",
+        "password":""
+      },
+      {
+        "type":"prod_server",
+        "hostname":"awnwhrlap2",
+        "ip_internal_address":"10.5.16.114",
+        "ip_external_address":"18.215.36.73",
+        "user":"valerf2",
+        "password":"Whirlpool@02"
+      }
+    ]
+  }
+}
